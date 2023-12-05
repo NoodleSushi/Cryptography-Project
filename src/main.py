@@ -1,6 +1,6 @@
 from typing import Callable, List
 import PySimpleGUI as sg
-from main import CipherKey, encrypt_file, decrypt_file
+from encrypt import CipherKey, encrypt_file, decrypt_file
 from abc import ABC, abstractmethod
 import secrets
 import os.path
